@@ -16,8 +16,7 @@ const Header = () => {
           <ul className="list-none capitalize flex">
             <Link to={"/"}><li className="px-4 relative cursor-pointer">Home</li></Link>
             <Link to={"/Category"}><li className="px-4 relative cursor-pointer">Category</li></Link>
-            {/* <Link to={"/SingleHotelView"}><li className="px-4 relative cursor-pointer">Virtual Tour</li></Link> */}
-          </ul>
+                    </ul>
         </div>
         <div className="w-20 md:w-30">
           <Link to={'/'}>
