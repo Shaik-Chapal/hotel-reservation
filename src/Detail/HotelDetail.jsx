@@ -11,50 +11,50 @@ import image10 from '../assets/showcase10.jpg'
 
 
 
-export const HotelDetail =[
-      {
-        id: 1,
-        image: image1,
-        title: 'Luxury Resort & Spa',
-        desc: 'Escape to our luxurious resort and spa, nestled in the heart of breathtaking natural surroundings. Indulge in world-class amenities, rejuvenating spa treatments, and exquisite dining experiences. Experience the ultimate in relaxation and serenity at our resort.',
-        button: 'Book Now'
-      },
-      {
-        id: 2,
-        image: image2,
-        title: 'Seaside Boutique Hotel',
-        desc: 'Discover the charm of our seaside boutique hotel, located steps away from pristine sandy beaches. Immerse yourself in the tranquil coastal ambiance and enjoy breathtaking ocean views from our stylishly designed rooms. Experience coastal living at its finest.',
-        button: 'Book Now'
-      },
-      {
-        id: 3,
-        image: image3,
-        title: 'Mountain Retreat Lodge',
-        desc: 'Unwind in our cozy mountain retreat lodge, surrounded by stunning peaks and lush forests. Experience the beauty of nature with hiking trails, mountain biking, and winter sports activities. Relax by the fireplace in our rustic yet elegant accommodations.',
-        button: 'Book Now'
-      },
-      {
-        id: 4,
-        image: image4,
-        title: 'Urban Chic Boutique Hotel',
-        desc: 'Immerse yourself in the vibrant city life at our urban chic boutique hotel. Located in the heart of the bustling metropolis, our hotel offers stylish rooms, modern amenities, and easy access to shopping, dining, and entertainment venues. Experience the urban charm and sophistication.',
-        button: 'Book Now'
-      },
-      {
-        id: 5,
-        image: image5,
-        title: 'Historic Inn & Spa',
-        desc: 'Step back in time at our historic inn and spa, where classic elegance meets modern comfort. Explore the rich history of the area and relax in our luxurious spa facilities. Indulge in gourmet dining and experience the timeless charm of our meticulously restored accommodations.',
-        button: 'Book Now'
-      },
-      {
-        id: 6,
-        image: image6,
-        title: 'Tropical Paradise Resort',
-        desc: 'Escape to our tropical paradise resort, located on a pristine island with white sandy beaches and crystal-clear turquoise waters. Immerse yourself in the tropical oasis with palm trees, exotic wildlife, and a range of water activities. Experience paradise like never before.',
-        button: 'Book Now'
-      },
-]
+export const HotelDetail = [
+  {
+    id: 1,
+    image: image1,
+    title: 'Exquisite Luxury Retreat & Spa',
+    desc: 'Embark on a journey to our opulent retreat and spa, nestled amidst awe-inspiring natural landscapes. Delight in top-tier amenities, rejuvenating spa indulgences, and extraordinary culinary experiences. Unwind in the epitome of tranquility and luxury that defines our resort.',
+    button: 'Reserve Your Bliss'
+  },
+  {
+    id: 2,
+    image: image2,
+    title: 'Coastal Haven Boutique Escape',
+    desc: 'Uncover the allure of our boutique escape by the seaside, just moments away from pristine sandy shores. Immerse yourself in the serene coastal atmosphere and relish in stunning ocean vistas from our thoughtfully designed rooms. Revel in the epitome of coastal living.        ',
+    button: 'Secure Your Seaside Retreat'
+  },
+  {
+    id: 3,
+    image: image3,
+    title: 'Tranquil Mountain Getaway',
+    desc: 'Relax in our inviting mountain getaway, surrounded by majestic peaks and lush forests. Embrace the wonders of nature with hiking trails, mountain biking, and winter sports adventures. Unwind by the fireside in our rustic yet refined accommodations.                             ',
+    button: 'Book Your Mountain Retreat'
+  },
+  {
+    id: 4,
+    image: image4,
+    title: 'Sophisticated Urban Boutique Elegance',
+    desc: 'Immerse yourself in the dynamic city life at our sophisticated urban boutique haven. Situated in the heart of the bustling metropolis, our hotel presents chic rooms, contemporary amenities, and convenient access to premier shopping, dining, and entertainment.                   ',
+    button: 'Secure Your Urban Oasis'
+  },
+  {
+    id: 5,
+    image: image5,
+    title: 'Historical Charm and Spa Bliss',
+    desc: 'Step into a bygone era at our historically rich inn and spa, where timeless grace meets contemporary comfort. Dive into the area.',
+    button: 'Reserve Your Historic Getaway'
+  },
+  {
+    id: 6,
+    image: image6,
+    title: 'Tropical Bliss Resort Haven',
+    desc: 'Escape to our paradisiacal resort, nestled on a pristine island with ivory beaches and crystalline turquoise waters. Immerse yourself in a tropical haven adorned with palm trees, exotic fauna, and an array of water activities. Discover paradise like never before.                ',
+    button: 'Secure Your Tropical Paradise'
+  },
+];
 
 
 export const HotelRoomDetail = [
@@ -70,7 +70,7 @@ export const HotelRoomDetail = [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo. Pabst pug tumblr gochujan   .",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -116,7 +116,7 @@ export const HotelRoomDetail = [
       featured: false,
       images: image3,
       description:
-        "Our Family Suite is the perfect accommodation for a family getaway. With ample space and thoughtful amenities, this suite offers a comfortable and enjoyable stay for the whole family. It features multiple bedrooms, a spacious living area, and a fully equipped kitchenette.",
+        "Our Family Suite is the perfect accommodation for a family getaway. With ample space and thoughtful amenities, this suite offers a comfortable and enjoyable stay for the whole family. It features multiple bedrooms, a spacious living area, and a fully equipped kitchenette  .",
       extras: [
         "Multiple bedrooms with comfortable bedding",
         "Separate living area with a cozy seating arrangement",
@@ -139,7 +139,7 @@ export const HotelRoomDetail = [
       featured: true,
       images: image4,
       description:
-        "Experience the ultimate luxury with our Executive Suite. This opulent suite offers a sophisticated and lavish ambiance with a spacious bedroom, a separate living area, and a private terrace overlooking the stunning city skyline.",
+        "Experience the ultimate luxury with our Executive Suite. This opulent suite offers a sophisticated and lavish ambiance with a spacious bedroom, a separate living area, and a private terrace overlooking the stunning city skyline.                                                ",
       extras: [
         "Luxurious king-size bed with premium linens",
         "Spacious living area with elegant furniture",

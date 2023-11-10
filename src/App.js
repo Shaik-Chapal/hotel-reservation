@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./page/Home";
 import CategoryPage from "./page/CategoryPage";
+import ReserveScreen from "./page/ReserveScreen";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ErrorPage } from "./page/ErrorPage";
 import SingleHotelView from "./page/SingleHotelView";
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/Category" element={<CategoryPage/>}/>
+          <Route path="/Reserve" element={<ReserveScreen/>}/>
           <Route path={`/SingleHotelView/:id`} element={<SingleHotelView/>} />
           <Route path="*" element={<ErrorPage/>}/>
         </Routes>

@@ -13,10 +13,7 @@ const PackageDetail = () => {
         </div>
         <div className="w-1/2">
           <p className="text-[16px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            debitis at nam dolores hic laboriosam odio incidunt nisi. Rem
-            tenetur consequatur aliquid provident eos quisquam molestiae
-            corporis explicabo impedit similique.
+          In our diverse array of packages, indulge in a luxurious experience with our exclusive hotel reservations. Immerse yourself in comfort and opulence, where every detail is designed to elevate your stay.
           </p>
         </div>
       </div>
