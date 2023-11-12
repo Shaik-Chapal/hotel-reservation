@@ -25,7 +25,7 @@ const ReserveScreen = () => {
   };
 
   return (
-    <div className="bg-[#d27548]">
+    <div className="bg-[#48a5d2]">
       <div className="flex flex-col items-center pt-8">
         <h1 className="text-3xl font-semibold text-white mb-4">Select a Hotel for Reservation</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -33,7 +33,7 @@ const ReserveScreen = () => {
             <div
               key={hotel.id}
               className={`bg-white rounded p-4 cursor-pointer transition-transform transform hover:scale-105 ${
-                selectedHotel === hotel ? 'border-4 border-[#d27548]' : ''
+                selectedHotel === hotel ? 'border-4 border-[#48a5d2]' : ''
               }`}
               onClick={() => handleSelectHotel(hotel)}
             >

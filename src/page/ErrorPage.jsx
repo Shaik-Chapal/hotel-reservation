@@ -13,10 +13,10 @@ export function ErrorPage() {
           Sorry, we couldn&apos:t find the page you&apos;re looking for.
         </p>
         <div className="mt-4 flex items-center justify-center gap-x-3">
-           <button className="px-4 p-3 bg-[#d27548] uppercase text-white font-normal rounded">
+           <button className="px-4 p-3 bg-[#48a5d2] uppercase text-white font-normal rounded">
             book now
           </button>
-           <button className="px-4 p-3 bg-[#d27548] uppercase text-white font-normal rounded">
+           <button className="px-4 p-3 bg-[#48a5d2] uppercase text-white font-normal rounded">
             book now
           </button>
         </div>

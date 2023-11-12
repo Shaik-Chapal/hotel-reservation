@@ -25,7 +25,7 @@ const Header = () => {
         </div>
         <div className="hidden md:block">
        
-        <button className="px-4 p-3 bg-[#d27548] uppercase text-white font-normal rounded transition duration-300 ease-in-out hover:bg-[#8e4926]">
+        <button className="px-4 p-3 bg-[#48a5d2] uppercase text-white font-normal rounded transition duration-300 ease-in-out hover:bg-[#8e4926]">
   Book Now
 </button>
 
@@ -36,7 +36,7 @@ const Header = () => {
         </div>
       </div>
       <div className="reletive">
-      <div className={`${isMenu ? "block" : "hidden"} bg-[#d27548] text-white md:hidden absolute rounded left-0 right-0`}>
+      <div className={`${isMenu ? "block" : "hidden"} bg-[#48a5d2] text-white md:hidden absolute rounded left-0 right-0`}>
         <ul className="list-none capitalize flex flex-col">
         <Link to={"/"}><li className="p-1 text-center cursor-pointer hover:bg-orange-700" onClick={() => setIsMenu(false)}>Home</li></Link>
         <Link to={"/Category"}><li className="p-1 text-center cursor-pointer hover:bg-orange-700" onClick={() => setIsMenu(false)}>Category</li></Link>

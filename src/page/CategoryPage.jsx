@@ -22,7 +22,7 @@ const CategoryPage = () => {
   }
 
   return (
-    <div className="bg-[#d27548]">
+    <div className="bg-[#48a5d2]">
       <WrapperContainer>
       <SearchRooms />
       <div id="showcase-Section" className="flex flex-wrap flex-col md:flex-row justify-between items-center pt-8">
