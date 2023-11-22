@@ -16,6 +16,8 @@ const Header = () => {
           <ul className="list-none capitalize flex">
             <Link to={"/"}><li className="px-4 relative cursor-pointer">Home</li></Link>
             <Link to={"/Category"}><li className="px-4 relative cursor-pointer">Category</li></Link>
+            <Link to={"/Login"}><li className="px-4 relative cursor-pointer">Login</li></Link>
+            <Link to={"/Register"}><li className="px-4 relative cursor-pointer">Register</li></Link>
                     </ul>
         </div>
         <div className="w-20 md:w-30">
@@ -40,6 +42,7 @@ const Header = () => {
         <ul className="list-none capitalize flex flex-col">
         <Link to={"/"}><li className="p-1 text-center cursor-pointer hover:bg-orange-700" onClick={() => setIsMenu(false)}>Home</li></Link>
         <Link to={"/Category"}><li className="p-1 text-center cursor-pointer hover:bg-orange-700" onClick={() => setIsMenu(false)}>Category</li></Link>
+        <Link to={"/Login"}><li className="p-1 text-center cursor-pointer hover:bg-orange-700" onClick={() => setIsMenu(false)}>Login</li></Link>
         <Link to={"/"}><li className="p-1 text-center cursor-pointer hover:bg-orange-700" onClick={() => setIsMenu(false)}>Virtual Tour</li></Link>
         </ul>
       </div>
