@@ -2,6 +2,8 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./page/Home";
 import CategoryPage from "./page/CategoryPage";
+import ItemDetail from "./page/ItemDetail/ItemDetail";
+import Checkout from "./page/checkout/Checkout";
 import Login from "./page/Login";
 import Register from "./page/Register";
 import ReserveScreen from "./page/ReserveScreen";
@@ -19,6 +21,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/Category" element={<CategoryPage/>}/>
+          <Route path="/ItemDetail" element={<ItemDetail/>}/>
+          <Route path="/Checkout" element={<Checkout/>}/>
           <Route path="/Login" element={<Login/>}/>
           <Route path="/Register" element={<Register/>}/>
           <Route path="/Reserve" element={<ReserveScreen/>}/>

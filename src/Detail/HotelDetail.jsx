@@ -17,42 +17,42 @@ export const HotelDetail = [
     image: image1,
     title: 'Exquisite Luxury Retreat & Spa',
     desc: 'Embark on a journey to our opulent retreat and spa, nestled amidst awe-inspiring natural landscapes. Delight in top-tier amenities, rejuvenating spa indulgences, and extraordinary culinary experiences. Unwind in the epitome of tranquility and luxury that defines our resort.',
-    button: 'Reserve Your Bliss'
+    button: 'See More'
   },
   {
     id: 2,
     image: image2,
     title: 'Coastal Haven Boutique Escape',
     desc: 'Uncover the allure of our boutique escape by the seaside, just moments away from pristine sandy shores. Immerse yourself in the serene coastal atmosphere and relish in stunning ocean vistas from our thoughtfully designed rooms. Revel in the epitome of coastal living.        ',
-    button: 'Secure Your Seaside Retreat'
+    button: 'See More'
   },
   {
     id: 3,
     image: image3,
     title: 'Tranquil Mountain Getaway',
     desc: 'Relax in our inviting mountain getaway, surrounded by majestic peaks and lush forests. Embrace the wonders of nature with hiking trails, mountain biking, and winter sports adventures. Unwind by the fireside in our rustic yet refined accommodations.                             ',
-    button: 'Book Your Mountain Retreat'
+    button: 'See More'
   },
   {
     id: 4,
     image: image4,
     title: 'Sophisticated Urban Boutique Elegance',
     desc: 'Immerse yourself in the dynamic city life at our sophisticated urban boutique haven. Situated in the heart of the bustling metropolis, our hotel presents chic rooms, contemporary amenities, and convenient access to premier shopping, dining, and entertainment.                   ',
-    button: 'Secure Your Urban Oasis'
+    button: 'See More'
   },
   {
     id: 5,
     image: image5,
     title: 'Historical Charm and Spa Bliss',
     desc: 'Step into a bygone era at our historically rich inn and spa, where timeless grace meets contemporary comfort. Dive into the area.',
-    button: 'Reserve Your Historic Getaway'
+    button: 'See More'
   },
   {
     id: 6,
     image: image6,
     title: 'Tropical Bliss Resort Haven',
     desc: 'Escape to our paradisiacal resort, nestled on a pristine island with ivory beaches and crystalline turquoise waters. Immerse yourself in a tropical haven adorned with palm trees, exotic fauna, and an array of water activities. Discover paradise like never before.                ',
-    button: 'Secure Your Tropical Paradise'
+    button: 'See More'
   },
 ];
 

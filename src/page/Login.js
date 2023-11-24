@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
+import { Link } from "react-router-dom";
+
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -23,13 +25,11 @@ const Login = () => {
         password,
       });
 
-      // Handle successful login - for example, store tokens in local storage
       console.log('Login successful:', response.data);
-      // You might redirect to another page or perform other actions upon successful login
+      window.location.href = '/Checkout';
     } catch (error) {
       // Handle login failure
       console.error('Login error:', error.response.data);
-      // You can display an error message to the user or handle the error as needed
     }
   };
 
@@ -58,6 +58,8 @@ const Login = () => {
         <button className="px-4 p-3 bg-[#48a5d2] uppercase text-white font-normal rounded transition duration-300 ease-in-out hover:bg-[#8e4926]"
 
          type="submit">Login</button>
+
+         <Link to={"/Register"}><li className="px-4 relative cursor-pointer">Register</li></Link>
       </form>
     </div>
   );

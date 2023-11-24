@@ -97,4 +97,11 @@ body{
     border-radius: 4px;
     cursor: pointer;
   }
+/* Add this CSS in your stylesheet */
+.cart-link-box {
+  border: 1px solid #ccc; /* Add a border */
+  padding: 8px; /* Adjust padding as needed */
+  display: inline-block; /* Ensure it only takes the width of the content */
+  border-radius: 4px; /* Optional: Add some border radius for rounded corners */
+}
 

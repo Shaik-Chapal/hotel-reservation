@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
+import { Link } from "react-router-dom";
+
 const Register = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
@@ -30,11 +32,10 @@ const Register = () => {
 
       // Handle successful registration
       console.log('Registration successful:', response.data);
-      // You might redirect to a login page or perform other actions upon successful registration
+      window.location.href = '/';
     } catch (error) {
       // Handle registration failure
       console.error('Registration error:', error.response.data);
-      // You can display an error message to the user or handle the error as needed
     }
   };
 

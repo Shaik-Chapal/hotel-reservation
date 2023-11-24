@@ -3,6 +3,8 @@ import React, { useContext, useState } from 'react';
 import { HotelDetail } from '../Detail/HotelDetail';
 import Contex from '../contextApi/Contex';
 
+import { Link } from "react-router-dom";
+
 const ReserveScreen = () => {
   const { Room, Guest, PriceRange } = useContext(Contex);
   const [selectedHotel, setSelectedHotel] = useState(null);
@@ -40,6 +42,12 @@ const ReserveScreen = () => {
               <img className="rounded mb-2" src={hotel.image} alt={hotel.title} />
               <h2 className="text-lg font-semibold">{hotel.title}</h2>
               <p className="text-gray-600">{hotel.desc}</p>
+             
+              <div className="cart-link-box">
+        <Link to="/ItemDetail" className="px-4 relative cursor-pointer">
+          Add to Cart
+        </Link>
+      </div>
             </div>
           ))}
         </div>
