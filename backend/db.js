@@ -1,9 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://Chapal:ChapalChapal@cluster0.j7jalit.mongodb.net/Hotel', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
+mongoose.connect('mongodb+srv://Chapal:ChapalChapal@cluster0.j7jalit.mongodb.net/Hotel')
   .then(() => {
     console.log('Connected to MongoDB Atlas');
   })
